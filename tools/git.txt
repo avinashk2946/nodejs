@@ -3,7 +3,6 @@ How to revert a commit from git repository
 //https://stackoverflow.com/questions/448919/how-can-i-remove-a-commit-on-github
 //https://kb.iu.edu/d/afcz
 
-
 1 - Copy the commit reference you like to go back to from the log:
 
 git log
@@ -24,3 +23,8 @@ It will take you to the editor
 
 7) git push
 
+
+How can I stage and commit all files, including newly added files, using a single command?
+//https://stackoverflow.com/questions/2419249/how-can-i-stage-and-commit-all-files-including-newly-added-files-using-a-singl
+
+git add -A && git commit -m "Your Message"
